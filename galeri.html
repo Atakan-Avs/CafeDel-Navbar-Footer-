@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CafeDel - Galeri</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar Include -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Gallery Header -->
+    <div class="gallery-header position-relative">
+        <div class="overlay"></div>
+        <div class="container position-relative">
+            <h1 class="display-4 text-center text-white">Galeri</h1>
+            <p class="lead text-center text-white">Mekanımızdan unutulmaz kareler</p>
+        </div>
+    </div>
+
+    <!-- Gallery Filter -->
+    <div class="container py-5">
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-8">
+                <div class="filter-buttons">
+                    <button type="button" class="btn btn-filter active" data-filter="all">Tümü</button>
+                    <button type="button" class="btn btn-filter" data-filter="interior">İç Mekan</button>
+                    <button type="button" class="btn btn-filter" data-filter="food">Yemekler</button>
+                    <button type="button" class="btn btn-filter" data-filter="drinks">İçecekler</button>
+                    <button type="button" class="btn btn-filter" data-filter="events">Etkinlikler</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="row g-4">
+            <!-- Interior Photos -->
+            <div class="col-md-4 gallery-item interior">
+                <div class="gallery-item-wrapper">
+                    <a href="https://images.unsplash.com/photo-1554118811-1e0d58224f24" data-lightbox="gallery" data-title="Modern Cafe Interior">
+                        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24" class="img-fluid" alt="Cafe Interior">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 gallery-item interior">
+                <div class="gallery-item-wrapper">
+                    <a href="https://images.unsplash.com/photo-1559925393-8be0ec4767c8" data-lightbox="gallery" data-title="Şık Oturma Alanı">
+                        <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8" class="img-fluid" alt="Cafe Interior">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 gallery-item interior">
+                <div class="gallery-item-wrapper">
+                    <a href="https://images.unsplash.com/photo-1521017432531-fbd92d768814" data-lightbox="gallery" data-title="Bar Alanı">
+                        <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814" class="img-fluid" alt="Cafe Interior">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Food Photos -->
+            <div class="col-md-4 gallery-item food">
+                <div class="gallery-item-wrapper">
+                    <a href="https://images.unsplash.com/photo-1551024506-0bccd828d307" data-lightbox="gallery" data-title="Özel Tatlılar">
+                        <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307" class="img-fluid" alt="Desserts">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 gallery-item food">
+                <div class="gallery-item-wrapper">
+                    <a href="https://images.unsplash.com/photo-1504674900247-0877df9cc836" data-lightbox="gallery" data-title="Taze Salatalar">
+                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" class="img-fluid" alt="Salad">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 gallery-item food">
+                <div class="gallery-item-wrapper">
+                    <a href="https://images.unsplash.com/photo-1513104890138-7c749659a591" data-lightbox="gallery" data-title="Özel Pizzalar">
+                        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591" class="img-fluid" alt="Pizza">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Drink Photos -->
+            <div class="col-md-4 gallery-item drinks">
+                <div class="gallery-item-wrapper">
+                    <a href="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" data-lightbox="gallery" data-title="Özel Kahveler">
+                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" class="img-fluid" alt="Coffee">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 gallery-item drinks">
+                <div class="gallery-item-wrapper">
+                    <a href="https://images.unsplash.com/photo-1544145945-f90425340c7e" data-lightbox="gallery" data-title="Soğuk İçecekler">
+                        <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e" class="img-fluid" alt="Cold Drinks">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 gallery-item drinks">
+                <div class="gallery-item-wrapper">
+                    <a href="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd" data-lightbox="gallery" data-title="Özel Kokteyller">
+                        <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd" class="img-fluid" alt="Cocktails">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Event Photos -->
+            <div class="col-md-4 gallery-item events">
+                <div class="gallery-item-wrapper">
+                    <a href="https://images.unsplash.com/photo-1511795409834-ef04bbd61622" data-lightbox="gallery" data-title="Canlı Müzik">
+                        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622" class="img-fluid" alt="Live Music">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 gallery-item events">
+                <div class="gallery-item-wrapper">
+                    <a href="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf" data-lightbox="gallery" data-title="Özel Etkinlikler">
+                        <img src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf" class="img-fluid" alt="Events">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 gallery-item events">
+                <div class="gallery-item-wrapper">
+                    <a href="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf" data-lightbox="gallery" data-title="Workshop Etkinlikleri">
+                        <img src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf" class="img-fluid" alt="Workshop">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Include -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script>
+        // Load navbar and footer
+        $(document).ready(function() {
+            $("#navbar-placeholder").load("navbar.html");
+            $("#footer-placeholder").load("footer.html");
+
+            // Gallery filter
+            $('.btn-filter').click(function() {
+                $('.btn-filter').removeClass('active');
+                $(this).addClass('active');
+                
+                var filter = $(this).data('filter');
+                
+                if (filter === 'all') {
+                    $('.gallery-item').fadeIn(300);
+                } else {
+                    $('.gallery-item').hide();
+                    $('.gallery-item.' + filter).fadeIn(300);
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
